@@ -1,9 +1,9 @@
-public class Calculate
+public class Calculator
 {
 	private int result;
 
 	public void add(int ... params){
-		for (Integer param: params{
+		for (Integer param: params){
 		this.result +=param;
 		}
 	}	
@@ -12,7 +12,7 @@ public class Calculate
 		return this.result;
 	}
 
-	pubblic void cleareResult(){
+	public void clearResult(){
 		this.result = 0;
 	}
 
